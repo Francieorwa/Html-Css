@@ -23,7 +23,7 @@ The home section is an introduction, highlighting my name, role as a web develop
 
 ### About Section
 
-The about section provides more details about my background, skills, and philosophy as a web developer. It emphasizes my dedication to crafting user-friendly digital experiences and my belief in collaboration for extraordinary results.
+The about section provides more details about my background, skills,as a web developer. It emphasizes my dedication to crafting user-friendly digital experiences and my belief in collaboration for extraordinary results.
 
 ### Contact Form
 
