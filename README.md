@@ -1,4 +1,3 @@
-# Html-Css
 # Franciscah Orwa's Web Development Portfolio
 
 Welcome to my web development portfolio! This repository showcases my skills, projects, and a bit about who I am.
