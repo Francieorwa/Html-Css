@@ -87,11 +87,7 @@
   font-size: 1.2em;
   margin-bottom: 30px;
 }
-.skills {
-  display: flex;
-  margin-top: 4px;
-  justify-content: space-around;
-}
+
 
 .link {
   display: inline-block;
@@ -146,6 +142,80 @@
   font-size: 18px;
   margin-right: 300px;
 }
+
+/* skills */
+.skills {
+  display: flex;
+justify-content: space-evenly;
+
+}
+.skills ul{
+  display: flex;
+  list-style:none ;
+  margin: 50px;
+  flex-wrap: wrap;
+
+}
+
+.skills li {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  width: 30px; 
+  height: 30px; 
+  border: 2px solid black;
+  margin-right: 100px;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.skills li i {
+  font-size: 30px; 
+}
+.skills li h5 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px; 
+  color: black; 
+}
+.fa-html5{
+  color:#e34c26;
+  
+}
+.fa-css3-alt{
+  color:#264de4;
+}
+.fa-square-js{
+  color:#F0DB4F;
+}
+.fa-react{
+  color: #61DBFB;
+}
+.fa-gem{
+  color:#CC0000;
+}
+.fa-database{
+  color:#00758F;
+}
+.my-skill{
+  color:#9377e6;
+  font-size: 30px;
+  margin-left: 80px;
+  margin-top: 200px;
+}
+
+.tailwind {
+  display: block; 
+  width: 30px; 
+  height: auto;
+  border: 2px solid black;
+  padding: 30px; 
+  object-fit:cover; 
+}
+
+
+
 /* contact */
 .call {
   
