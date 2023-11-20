@@ -7,6 +7,8 @@ Welcome to my web development portfolio! This repository showcases my skills, pr
 - [Portfolio](#portfolio)
   - [Home](#home)
   - [About Section](#about-section)
+  - [Skills Section](#skills-section)
+  - [Projects Section](#projects-section)
   - [Contact Form](#contact-form)
 - [Contact](#contact)
 - [License](#license)
@@ -19,11 +21,37 @@ I'm Franciscah Orwa, a dedicated web developer with a passion for creating seaml
 
 ### Home
 
-The home section is an introduction, highlighting my name, role as a web developer, and my key attributes. It also presents a set of skills I possess, including HTML5, CSS3, JavaScript, React, and database management.
+The home section is an introduction, highlighting my name, role as a web developer, and my key attributes.
 
 ### About Section
 
 The about section provides more details about my background, skills,as a web developer. It emphasizes my dedication to crafting user-friendly digital experiences and my belief in collaboration for extraordinary results.
+
+
+### Skills
+My technical skills include:
+
+- Front-End Development: Proficient in HTML5, CSS3, JavaScript, and React.
+- Back-End Development: Experienced in Ruby.
+- Database Management: Knowledgeable in SQL.
+- Additional Technologies: Familiar with Tailwind CSS.
+
+I have also developed the following soft skills:
+- Problem Solving: I am able to identify problems and come up with solutions that meet project requirements.
+- Collaboration: I work well in teams and can effectively communicate ideas and feedback.
+- Adaptability: I am flexible and willing to learn new technologies or approaches when needed.
+
+
+
+### Projects
+Here are some projects I have worked on:
+1. ConferenceHub: A web application for tracking conferences across different ministries.
+
+2. Optica: An app designed to assist users in finding the best optical solutions.
+
+3. Fresh2Door: A service for ordering groceries online with delivery options.
+
+Each project demonstrates my capability in web development, from concept to deployment.
 
 ### Contact Form
 
