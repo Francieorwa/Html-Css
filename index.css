@@ -61,8 +61,8 @@
 }
 
 /* home */
-.text-section {
-  flex: 1;
+.text-section{
+  margin: 20px;
   padding: 100px;
 }
 
@@ -71,7 +71,6 @@
 }
 
 .hero {
-  padding-top: 70px;
   color: #000;
   text-align: center;
   background-color: #9377e6;
@@ -79,7 +78,7 @@
 
 .hero-content {
   max-width: 600px;
-  max-height: 450px;
+  max-height:600px;
   margin: auto;
 }
 
@@ -103,15 +102,35 @@
   text-decoration: none;
   border-radius: 5px;
   font-size: 1.1em;
+  font-weight: bold;
 }
 .link:hover {
     background-color: #4d09d4;
     color: white;
   }
 
+  .btn {
+    display: inline-block;
+    border:2px solid white; 
+    color: black;
+    margin: 20px;
+    font-weight: bold;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    
+  }
+  
+  .btn:hover {
+    background-color: #4d09d4;
+    color: white;
+  }
+
   /* about */
 .about-section {
-  margin-top: 180px;
+  margin-top: 80px;
   padding-top: 100px;
 }
 
@@ -414,4 +433,89 @@ button:hover {
   background-color: #9377e6;
   text-align: center;
   padding: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav ul, .icon {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .nav li {
+      margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-content, .text-section {
+      width: 100%;
+      text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .about-para {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px; 
+  }
+
+  .me {
+      order: 2; 
+      margin: 20px 0;
+  }
+
+  #anime {
+      order: 1; 
+      margin-bottom: 20px; 
+      width: 80%;
+  }
+
+  .about-section h2 {
+      margin-top: 20px;
+  }
+
+  .about-section p {
+      font-size: 16px; 
+      margin: 0 auto; 
+      max-width: 600px; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skills ul {
+      justify-content: center;
+  }
+
+  .skills li {
+      margin: 10px;
+      width: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card__container {
+      grid-template-columns: 1fr;
+  }
+
+  .card__article {
+      margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .contact-img{
+    display: none;
+  }
+  .contact-form {
+      width: 90%;
+      margin: 20px 0;
+  }
 }
